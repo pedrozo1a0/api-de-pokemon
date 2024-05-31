@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.lista-pokemon-li{
+  list-style: none;
+
+}
+#root{
+  display: flex;
+  gap: 150px;
+}
+.lista-pokemon-contenedor{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
